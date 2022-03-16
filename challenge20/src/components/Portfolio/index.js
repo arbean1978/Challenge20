@@ -1,6 +1,6 @@
 import React from 'react'; 
-import ProjectCards from './../Project'
-import portfolio from './../../portfolio.json'
+import ProjectCards from './/../Project'
+import portfolio from './/..//../portfolio.json'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Wrapper(props) {
