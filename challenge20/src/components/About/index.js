@@ -4,10 +4,10 @@ function About() {
 
     return(
         <section className="container">
-            <h2 class="top-title">Aaron Bean</h2>
+            <h2 className="top-title">Aaron Bean</h2>
             <hr></hr>
             <div className="d-flex">
-                <img class="mb-5" id="avatar" src='C:\Users\arbea\Desktop\Challenge20\challenge20\src\assets\images\20048676-277843162_4-s1-v1.png' alt="Aaron Bean" />
+                <img className="mb-5" id="avatar" src='./assets/images/Me.png' alt="Aaron Bean" />
                 <div>
                     <p>
                     Hello! I am Aaron, a student of Full-stack Web Development from Salt Lake City, Utah
