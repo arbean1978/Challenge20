@@ -1,33 +1,24 @@
-import React, { Component } from "react";
-import { Route, Navigate, HashRouter, Routes } from "react-router-dom";
+import React from "react";
 import Navigation from "../Navigation";
-import About from "../About";
-import Portfolio from "./../Portfolio";
-import Contact from './../Contact';
-import Resume from './../Resume';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
+function Header(props) {
+	const { currentTab, setCurrentTab } = props;
 
-class Header extends Component {
-  render() {
-    return (
-      <HashRouter>
-        <header>
-          <Navigation />
-        </header>
-       
-        <div className="content">
-        <Routes>  
-          <Route exact path="/" render={() => <Navigate to="/about" />} />
-          <Route path="/About" component={About} />
-          <Route path="/Portfolio" component={Portfolio} />
-          <Route path="/Contact" component={Contact}/>
-          <Route path="/Resume" component={Resume}/>
-        </Routes>
-        </div>
-      
-      </HashRouter>
-    );
-  }
+	return (
+		<header>
+			<div className="p-3 mb-2 bg-black bg-gradient text-white fs-1 fw-bold">
+				 <a href="/About">Aaron's React Portfolio</a>
+			</div>
+     
+			<div>
+				<Navigation
+					currentTab={currentTab}
+					setCurrentTab={setCurrentTab}
+				></Navigation>
+			</div>
+		</header>
+	);
 }
 
 export default Header;

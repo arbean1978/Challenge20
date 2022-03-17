@@ -1,4 +1,5 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function About() {
 
@@ -7,7 +8,7 @@ function About() {
             <h2 className="top-title">Aaron Bean</h2>
             <hr></hr>
             <div className="d-flex">
-                <img className="mb-5" id="avatar" src='.//..//assets/image/Me.png' alt="Aaron Bean" />
+                <img className="mb-5" id="avatar" src='./Me.png' alt="Aaron Bean" />
                 <div>
                     <p>
                     Hello! I am Aaron, a student of Full-stack Web Development from Salt Lake City, Utah
