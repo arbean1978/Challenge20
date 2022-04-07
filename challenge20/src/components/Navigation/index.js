@@ -1,12 +1,13 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Navigation(props) {
 	const { currentTab, setCurrentTab } = props;
 
 	return (
 		<nav>
-			<ul className="d-inline  mobile-view flex-row bd-highlight justify-content-end px-4 fs-2 fw-bold text-light">
+			<div  className="flex px-4 text-6xl font-bold font-sans" >
+			<ul>
 				<li className={currentTab === "About" ? "mx-2 navActive" : "mx-2"}>
 					<span onClick={() => setCurrentTab("About")}>About Me</span>
 				</li>
@@ -20,7 +21,9 @@ function Navigation(props) {
 					<span onClick={() => setCurrentTab("Resume")}>Resume</span>
 				</li>
 			</ul>
+			</div>
 		</nav>
+	
 	);
 }
 

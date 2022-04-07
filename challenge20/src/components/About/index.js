@@ -1,14 +1,14 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function About() {
 
     return(
-        <section className="container fw-bold fs-2 text-light">
-            <h2 className="top-title fw-bold fs-1">Aaron Bean</h2>
+        <section className="container font-bold text-3xl">
+            <h2 className="top-title font-bold text-base">Aaron Bean</h2>
             <hr></hr>
-            <div className="d-flex">
-                <img src='./assets/images/Me.jpg'  className="mb-5" id="avatar"  alt="Aaron Bean" />
+            <div className="flex">
+                <img src='../assets/images/Me.jpg'  className="mb-5" id="avatar"  alt="Aaron Bean" />
                 <div>
                     <p>
                     Hello! I am Aaron, a student of .Full-stack Web Development from Salt Lake City, Utah

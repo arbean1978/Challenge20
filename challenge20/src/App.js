@@ -6,7 +6,7 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume'
 import Footer from './components/Footer';
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import Navigation from './components/Navigation';
 import './App.css';
 
 function App() {
@@ -28,15 +28,15 @@ function App() {
   };
   return (
 		<div>
-			<div className="mobile-header">
+	
 				<Header currentTab={currentTab} setCurrentTab={setCurrentTab}></Header>
-			</div>
-			<div>
+   
+    
 				<main>{renderTab()}</main>
-			</div>
-			<div>
+		
+			
 				<Footer></Footer>
-			</div>
+			
 		</div>
 	);
 }

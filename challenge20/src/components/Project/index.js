@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import Card from "react-bootstrap/Card";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import {Link} from 'react-router-dom'
+
 
 function Project(props) {
 	// This imports the information for the current project sent down.
@@ -28,27 +28,28 @@ function Project(props) {
 	}
 
 	return (
-		<Card style={{ width: "18rem" }}>
-			<Card.Img
+		<div className="w-72 max-w-sm rounded overflow-hidden shadow-lg">
+			<img
 				variant="top"
-				src={require(`../../assets/images/${image}`)}
-				className="card-image"
+				//src={require(`../../images/${image}`)}
+				alt='project'
+				className="card-image w-full"
 			/>
-			<div className="center">
-				<Card.Body>
-					<Card.Title className="card-title">{name}</Card.Title>
-					<Card.Subtitle className="card-subtitle">Techs Used</Card.Subtitle>
-					<Card.Text className="card-techs">{getTechs(techs)}</Card.Text>
-					<Card.Link href={appLink} target="_blank" className="card-link">
+			<div className="center px-6 py-4">
+				<div>
+					<div className="card-title">{name}</div>
+					<div className="card-subtitle font-bold text-xl mb-2 ">Techs Used</div>
+					<div className="card-techs text-gray-700 text-base ">{getTechs(techs)}</div>
+					<Link href={appLink} target="_blank" className="card-link">
 						{name} App
-					</Card.Link>
+					</Link>
 					<br></br>
-					<Card.Link href={gitLink} target="_blank" className="card-link">
+					<Link href={gitLink} target="_blank" className="card-link">
 						{name} Github
-					</Card.Link>
-				</Card.Body>
+					</Link>
+				</div>
 			</div>
-		</Card>
+		</div>
 	);
 }
 

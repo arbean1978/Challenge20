@@ -1,6 +1,6 @@
 import React from 'react';
-import Project from '../Project';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Project from '../Project/index'
+
 
 function Portfolio() {
 	const projects = [
