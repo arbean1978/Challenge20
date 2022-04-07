@@ -4,15 +4,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function About() {
 
     return(
-        <section className="container">
-            <h2 className="top-title">Aaron Bean</h2>
+        <section className="container fw-bold fs-2 text-light">
+            <h2 className="top-title fw-bold fs-1">Aaron Bean</h2>
             <hr></hr>
             <div className="d-flex">
-                <img className="mb-5" id="avatar" src='./Me.png' alt="Aaron Bean" />
+                <img src='./assets/images/Me.jpg'  className="mb-5" id="avatar"  alt="Aaron Bean" />
                 <div>
                     <p>
-                    Hello! I am Aaron, a student of Full-stack Web Development from Salt Lake City, Utah
-                    and a student of the coding bootcamp at The University of Utah . 
+                    Hello! I am Aaron, a student of .Full-stack Web Development from Salt Lake City, Utah
+                    attending coding bootcamp at The University of Utah . 
                     I love sports, weight-training, and spending time with family.
                     </p>
                     <p>

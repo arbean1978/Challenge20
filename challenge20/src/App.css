@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+body {
+  font-family: 'Oldenburg';
+  background-image: url(assets/images/nature.jpg);
+  background-size: cover;
+  opacity: ;
+}

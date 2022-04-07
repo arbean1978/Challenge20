@@ -1,92 +1,68 @@
 import React from 'react';
-import Project from './/../Project';
+import Project from '../Project';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Portfolio() {
 	const projects = [
 		{
-			name: 'Living Real',
-			description:
-				'This is a property management system that is used by landlords viewing and managing their properties and for tenants to allow for maintenance requests and pay rent.',
-			image: 'living-real-image.png',
+			name: 'Run-Buddy',
+			image: 'Rb.png',
 			technologies: [
 				'HTML/CSS',
-				'JavaScript',
-				'Node.js',
-				'Express & NoSQL',
-				'Heroku & AWS S3',
-				'React.js',
-				'MERN Stack',
+				'Github',
 			],
-			github: 'https://github.com/P3T2-Realty-Rogues/living-real',
-			deployed: 'https://living-real.herokuapp.com/',
+			github: 'https://github.com/arbean1978/run-buddy',
+			deployed: 'https://arbean1978.github.io/run-buddy/',
 		},
 		{
-			name: 'Auto Tracker',
-			description:
-				'This is your personal automobile information tracking system. Track time dependent, vehicle specific information from a single application, available on any web-enabled device.',
-			image: 'auto-tracker-image.png',
+			name: 'TheDreamTeam',
+			image: '',
 			technologies: [
 				'HTML/CSS',
 				'JavaScript',
 				'Node.js',
 				'Handlebars.js',
 				'Express & Sequelize',
-				'Heroku & AWS S3',
+				'Heroku & Github',
 			],
-			github: 'https://github.com/OwaisIslam/auto-tracker',
-			deployed: 'https://team-3-auto-tracker.herokuapp.com/',
+			github: 'https://github.com/arbean1978/TheDreamTeam',
+			deployed: 'n/a',
 		},
 		{
-			name: 'Flash Beats',
-			description:
-				'A clean and accurate way to search for your favorite songs while also displaying the lyrics.',
-			image: 'flash-beats-image.gif',
-			technologies: ['HTML/CSS', 'JavaScript', 'jQuery'],
-			github: 'https://github.com/OwaisIslam/flash-beats',
-			deployed: 'https://teamflash1.github.io/music-app/',
+			name: 'zookeepr',
+			image: '',
+			technologies: [
+				'HTML/CSS',
+			 	'JavaScript', 
+				 'jQuery', 
+				 'Node.js'],
+			github: 'https://github.com/arbean1978/zookeepr',
+			deployed: 'https://arbean1978.github.io/zookeepr',
 		},
 		{
-			name: 'Budget Tracker',
-			description:
-				'Budget Tracker is an Application that uses a noSQL database and offline persistance for a great user experience for managing their finances and budgeting no matter where they are.',
-			image: 'budget-tracker-image.png',
+			name: 'Challenge11',
+			image: '',
 			technologies: [
 				'JavaScript',
-				'MongoDB',
-				'IndexedDB & Service Workers',
 				'Node.js',
 				'Express',
 			],
-			github: 'https://github.com/OwaisIslam/budget-tracker',
-			deployed: 'https://budget-tracker-owais.herokuapp.com/',
+			github: 'https://github.com/arbean1978/Challenge11',
+			deployed: 'https://arbean1978.github.io/Challenge11',
 		},
 		{
-			name: 'Weather Dashboard',
-			description:
-				'A weather dashboard that shows current weather and five-day weather forecast for any city.',
-			image: 'weather-dashboard-image.png',
+			name: 'Portfolio Generator',
+			image: '',
 			technologies: ['HTML/CSS', 'JavaScript'],
-			github: 'https://github.com/OwaisIslam/weather-dashboard',
-			deployed: 'https://owaisislam.github.io/weather-dashboard/',
+			github: 'https://github.com/arbean1978/portfolio-generator',
+			deployed: 'https://arbean1978.github.io/portfolio-generator/',
 		},
 		{
 			name: 'Password Generator',
-			description:
-				'This is an application that allows you to generate a password from 8 to 128 characters based on criteria you select.',
-			image: 'password-generator-image.png',
+			image: 'Pw.png',
 			technologies: ['HTML/CSS', 'JavaScript'],
-			github: 'https://github.com/OwaisIslam/password-generator',
-			deployed: 'https://owaisislam.github.io/password-generator/',
-		},
-		{
-			name: 'Note Taker',
-			description:
-				'This application allows the user to enter notes and as they save, they appear in the sidebar on the left. Notes can be deleted by clicking the trash can next to the corresponding note.',
-			image: 'note-taker-image.png',
-			technologies: ['HTML/CSS', 'JavaScript', 'Express.js'],
-			github: 'https://github.com/OwaisIslam/note-taker',
-			deployed: 'https://note-taker-owais.herokuapp.com/',
+			github: 'https://github.com/arbean1978/Challenge3',
+			deployed: 'https://arbean1978.github.io/Challenge3/',
 		},
 	];
 
